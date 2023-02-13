@@ -18,7 +18,7 @@ CONTROLS
 
 To control it it has 6 potentiometers and 3 buttons. The pots are:
 
--TEMPO. It controls the tempo/speed
+-TEMPO. It controls the tempo/speed. To accept external clock set TEMPO pot at minimun.
 
 -BASE REGISTER. It determines if the machine is more musical or glichy. Better left it around 3 o'clock position for more musical results. Turning it to the center and left side produces more noisy/glitchy and chaotic outputs. You have been prevented!
 
@@ -67,4 +67,27 @@ XXXXXXXXXXXXXXXXXXXXXXXXXX
 
 XXXXXXXXXXXXXXXXXXXXXXXXXX
 
-Documenting it...
+CONTROLS
+
+To control it it has 6 potentiometers and 3 buttons. The pots are:
+
+-TEMPO. It controls the tempo/speed. To accept external clock set TEMPO pot at minimun.
+
+-BASE REGISTER. Find sweet spots. Turn it slightly for light variations. Turn it fast and violently for dramatic changes.
+
+-INTENSITY. In this firmware center, at 12oclok is intensity point cero. Going to the left or to the right get opposite effects on the operations.
+
+-SEQUENCE. It has been totally revamped. Now it controls the volume of the percussion channels. Also if you press LEFT button, while turning this por you control the probability of the drums to trigger. When you release the button, then you control the volume of the drums again.
+
+-DISPERSION. the higher this pot, the most registers that we are writing on the chip, so the sequences get more complex and chaotic. This and intensity are a very playable pair and both are related. Once you tuned something that you like, try to do variations playing this pot and INTENSITY one. This play mostly in subtle changes, when you want to keep the main musical theme just producing subtle variations.
+
+-COMBINATION. It multiplex, demultiplex and recombines sequences, keeping the output related but always fresh and different. At minimun it produces a 8 step sequence. At maximun it produces a 16 steps sequence. Between is where the magic happens, and it recombines and produce generative patterns via bitshifting and logic operations of the sequences. Now it has the double of resolution that the original firmware, so double of sweet spots and travel
+
+It has 3 buttons, Left, Right and Reset. Reset is located in the arduino and is self explanatory.
+
+Left button changes the drumming as explained in -SEQUENCE and right button produces coherent variations of the ritmhs and melodies
+
+It has Clock In and Clock Out so you can synch it with external gear. To accept external clock set TEMPO pot at minimun.
+
+
+
